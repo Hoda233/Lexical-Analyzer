@@ -1,22 +1,22 @@
 {
-      "startingState": "S11",
-      "S11": {
+      "startingState": "S5",
+      "S5": {
             "isTerminatingState": false,
             "ε": [
-                  "S9",
+                  "S3",
                   "S1"
             ]
       },
-      "S12": {
+      "S6": {
             "isTerminatingState": true
       },
-      "S9": {
+      "S3": {
             "isTerminatingState": false,
-            "b": "S10"
+            "b": "S4"
       },
-      "S10": {
+      "S4": {
             "isTerminatingState": false,
-            "ε": "S12"
+            "ε": "S6"
       },
       "S1": {
             "isTerminatingState": false,
@@ -24,33 +24,6 @@
       },
       "S2": {
             "isTerminatingState": false,
-            "ε": "S7"
-      },
-      "S7": {
-            "isTerminatingState": false,
-            "ε": [
-                  "S5",
-                  "S3"
-            ]
-      },
-      "S8": {
-            "isTerminatingState": false,
-            "ε": "S12"
-      },
-      "S5": {
-            "isTerminatingState": false,
-            "b": "S6"
-      },
-      "S6": {
-            "isTerminatingState": false,
-            "ε": "S8"
-      },
-      "S3": {
-            "isTerminatingState": false,
-            "a": "S4"
-      },
-      "S4": {
-            "isTerminatingState": false,
-            "ε": "S8"
+            "ε": "S6"
       }
 }
