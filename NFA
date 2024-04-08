@@ -1,0 +1,17 @@
+digraph {
+	graph [bgcolor="#ffffff" rankdir=LR]
+	startingState [style=invisible]
+	S5 [fillcolor="#ffffff" shape=circle style=filled]
+	S6 [fillcolor="#ffffff" shape=doublecircle style=filled]
+	S3 [fillcolor="#ffffff" shape=circle style=filled]
+	S4 [fillcolor="#ffffff" shape=circle style=filled]
+	S1 [fillcolor="#ffffff" shape=circle style=filled]
+	S2 [fillcolor="#ffffff" shape=circle style=filled]
+	startingState -> S5 [color="#000000"]
+	S5 -> S3 [label="ε" color="#000000"]
+	S5 -> S1 [label="ε" color="#000000"]
+	S3 -> S4 [label=b color="#000000"]
+	S4 -> S6 [label="ε" color="#000000"]
+	S1 -> S2 [label=a color="#000000"]
+	S2 -> S6 [label="ε" color="#000000"]
+}
