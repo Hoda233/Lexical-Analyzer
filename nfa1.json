@@ -2,10 +2,7 @@
       "startingState": "S3",
       "S3": {
             "isTerminatingState": false,
-            "ε": [
-                  "S1",
-                  "S4"
-            ]
+            "ε": "S1"
       },
       "S4": {
             "isTerminatingState": false,
@@ -17,7 +14,10 @@
       },
       "S2": {
             "isTerminatingState": false,
-            "ε": "S4"
+            "ε": [
+                  "S3",
+                  "S4"
+            ]
       },
       "S5": {
             "isTerminatingState": false,
